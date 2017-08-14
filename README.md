@@ -12,13 +12,13 @@
 1. 创建[oauth](https://github.com/settings/applications/new)，会得到client_id，client_secret。  
 经测试如果你是本地调试，`Authorization callback URL`可以填写http://localhost:8080/本地地址
 2. 配置MyComment.vue中的oauth
-    ```
-    owner: 'Your GitHub ID',// eg: wmui
-    repo: 'The repo to store comments', // eg: comment
-    oauth: {
-        client_id: 'Your client ID', 
-        client_secret: 'Your client secret',
-    },
-    ```
+```
+owner: 'Your GitHub ID',// eg: wmui
+repo: 'The repo to store comments', // eg: comment
+oauth: {
+    client_id: 'Your client ID', 
+    client_secret: 'Your client secret',
+},
+```
 3. 完成以上操作，初始化评论
-![](https://github.com/wmui/comment/raw/master/demo/01.png)
+![](https://github.com/vue-blog/vb-comment/tree/master/demo/01.png)
