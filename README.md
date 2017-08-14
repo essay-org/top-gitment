@@ -21,4 +21,7 @@ oauth: {
 },
 ```
 3. 完成以上操作，初始化评论
-![](https://github.com/vue-blog/vb-comment/tree/master/demo/01.png)
+![image](https://github.com/vue-blog/vb-comment/blob/master/demo/01.png)
+
+### 结语
+评论插件有很多可以选择，不必局限于gitment
