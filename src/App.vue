@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <vue-gitment :options="options" v-if="options"></vue-gitment>
+    <vue-comment :options="options" v-if="options"></vue-comment>
   </div>
   </div>
 </template>
 <script>
-import VueGitment from './components/VueGitment.vue'
 export default {
+  name: 'App',
   data() {
     return {
       options: {
@@ -19,9 +19,6 @@ export default {
         } 
       }
     }
-  },
-  components: {
-    VueGitment
   }
 }
 </script>

@@ -1,10 +1,14 @@
 <template>
+<div>
+<p>hello</p>
   <div v-comment="options"></div>
+</div>
 </template>
 <script>
 // 引入依赖项
 import Gitment from 'gitment'
 export default {
+  name: 'vue-comment',
   props: ['options'],
   directives: {
     // 自定义指令
