@@ -2,7 +2,6 @@
   <div id="app">
     <vue-comment :options="options" v-if="options"></vue-comment>
   </div>
-  </div>
 </template>
 <script>
 export default {

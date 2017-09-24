@@ -1,8 +1,5 @@
 <template>
-<div>
-<p>hello</p>
   <div v-comment="options"></div>
-</div>
 </template>
 <script>
 // 引入依赖项
