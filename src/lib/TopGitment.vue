@@ -5,7 +5,7 @@
 // 引入依赖项
 import Gitment from 'gitment'
 export default {
-  name: 'vue-comment',
+  name: 'top-gitment',
   props: ['options'],
   directives: {
     // 自定义指令

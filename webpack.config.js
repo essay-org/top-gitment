@@ -8,8 +8,8 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
     // filename: 'build.js',
-    filename: 'vue-gitment.js',
-    library: 'VueGitment',
+    filename: 'top-gitment.js',
+    library: 'TopGitment',
     libraryTarget: 'umd',
     umdNamedDefine: true 
   },

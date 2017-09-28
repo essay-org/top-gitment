@@ -1,7 +1,7 @@
-import VueComment from './VueComment.vue'
+import TopGitment from './TopGitment.vue'
 const comment = {
   install: function(Vue) {
-    Vue.component(VueComment.name, VueComment)
+    Vue.component(TopGitment.name, TopGitment)
   }
 }
 if (typeof window !== 'undefined' && window.Vue) { 
