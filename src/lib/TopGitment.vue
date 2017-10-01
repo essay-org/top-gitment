@@ -26,3 +26,6 @@ export default {
   }
 }
 </script>
+<style>
+  @import '~gitment/style/default.css'
+</style>

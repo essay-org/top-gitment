@@ -7,8 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    // filename: 'build.js',
-    filename: 'top-gitment.js',
+    filename: 'build.js',
     library: 'TopGitment',
     libraryTarget: 'umd',
     umdNamedDefine: true 

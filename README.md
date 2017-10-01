@@ -34,13 +34,8 @@ export default {
   }
 }
 </script>
-<style>
-  @import '~gitment/style/default.css';
-</style>
 ```
 
-## 贡献者
-[@wmui](https://github.com/wmui)  
 
 ## 配置项说明
 创建[oauth](https://github.com/settings/applications/new)，会得到client_id，client_secret。经测试如果你是本地调试，Authorization callback URL可以填写http://localhost:8080/

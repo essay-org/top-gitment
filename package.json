@@ -1,8 +1,8 @@
 {
   "name": "top-gitment",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A comment plugin by gitment",
-  "main": "dist/vue-gitment.js",
+  "main": "dist/build.js",
   "directories": {
     "dist": "dist"
   },
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/vuetop/top-gitment.git"
   },
   "keywords": [
-    "vueblog",
+    "top-gitment",
     "comment",
     "gitment"
   ],
